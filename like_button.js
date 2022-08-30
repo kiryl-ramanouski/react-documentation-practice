@@ -22,7 +22,6 @@ class LikeButton extends React.Component {
   // }
 
   // render with modern JSX
-
   render() {
     if (this.state.liked) {
       return <p>You liked comment number {this.props.commentid}</p>;
