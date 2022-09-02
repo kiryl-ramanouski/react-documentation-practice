@@ -1,7 +1,12 @@
 import './App.css';
+import { ControlledForm } from './ControlledForm';
 
 function App() {
-  return <div className="App">React App</div>;
+  return (
+    <div className="App">
+      <ControlledForm />
+    </div>
+  );
 }
 
 export default App;
