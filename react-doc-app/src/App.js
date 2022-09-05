@@ -1,10 +1,10 @@
 import './App.css';
-import { UncontrolledForm } from './UncontrolledForm';
+import { Calculator } from './calculator/Calculator';
 
 function App() {
   return (
     <div className="App">
-      <UncontrolledForm />
+      <Calculator />
     </div>
   );
 }
