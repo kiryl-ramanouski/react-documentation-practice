@@ -10,4 +10,7 @@ function FancyInput(ref, props) {
   return <input ref={inputRef} type="text" />;
 }
 
+// eslint-disable-next-line no-func-assign
 FancyInput = forwardRef(FancyInput);
+
+export default FancyInput;
